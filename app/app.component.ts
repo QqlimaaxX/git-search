@@ -1,8 +1,11 @@
 import {Component} from '@angular/core';
 
+import {GithubComponent} from './components/github.component';
+
 @Component({
-	selector: 'my-app',
-	template: '<h1>Hi there!</h1>'
+	moduleId:module.id,   //using for template url, for relative path   
+	selector: 'app',
+	templateUrl:'app.component.html'   //   './app/app.component.html'
 })
 export class AppComponent  { 
 
